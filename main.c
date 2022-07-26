@@ -21,8 +21,7 @@ int main() {
     printf("\nPress 1 for Stone \nPress 2 for Paper\nPress 3 for Seasor");
     scanf("%d", &choice);
     if (choice <0 || choice >3) {
-        // continue;
-        main();
+        continue;
     }
     rnd = random(); // 0.Stone 1.Paper 2.Seasor
     choice--;
